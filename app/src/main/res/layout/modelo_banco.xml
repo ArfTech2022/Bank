@@ -10,6 +10,7 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/idmdlimg"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="centerCrop"
@@ -21,13 +22,22 @@
             android:orientation="vertical">
 
             <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/idtxtitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
                 android:text="Lista de Agências" />
 
+
             <TextView
+                android:id="@+id/idMdlDescricao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="#000"
                 android:text="Consulta a Lista de Agências próximas a você do banco Itaú" />
 
             <LinearLayout
@@ -43,6 +53,7 @@
                     style="@style/Widget.AppCompat.RatingBar.Indicator"/>
 
                 <TextView
+                    android:id="@+id/idmdlnota"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="5.0"
