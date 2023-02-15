@@ -36,7 +36,7 @@
                 android:id="@+id/idMdlDescricao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:textColor="#000"
                 android:text="Consulta a Lista de Agências próximas a você do banco Itaú" />
 
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:text="5.0"
                     android:layout_marginRight="120dp"
-                    android:textSize="15dp"/>
+                    android:textSize="25sp"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
