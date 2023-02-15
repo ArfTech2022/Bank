@@ -13,13 +13,13 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     ListView idListaValores;
 
-    String titulo[] = {"Lista de Agências","Itaú - Ag. 1608","Itaú - Ag. 0360", "Itaú - Ag. 6414", "Itaú - Ag. 0767"};
+    String titulo[] = {"Lista de Agências","Itaú - Ag. 1608","Itaú - Ag. 0360", "Itaú - Ag. 6414", "Itaú - Ag. 0767", "Itaú - Ag. 2978"};
 
-    String descricao[] = {"Consulta a Lista de Agências próximas a você do banco Itaú","Chácara Santo Antônio","Av. Santa Catarina", "Itaú Personnalité Marajoara", "Jd. Prudência\n"};
+    String descricao[] = {"Consulta a Lista de Agências próximas a você do banco Itaú","Chácara Santo Antônio","Av. Santa Catarina", "Itaú Personnalité Marajoara", "Jd. Prudência\n","Shopping Morumbi"};
 
-    String nota[] = {"5.0" , "3,4", "3.0" , "5.0", "4,5"};
+    String nota[] = {"5.0" , "3,4", "3.0" , "5.0", "4,5" , "5.0"};
 
-    int bank[] = {R.drawable.itau,R.drawable.itausantoantonio,R.drawable.santacatarina,R.drawable.marajoarapersonalite,R.drawable.jdmarajoara};
+    int bank[] = {R.drawable.itau,R.drawable.itausantoantonio,R.drawable.santacatarina,R.drawable.marajoarapersonalite,R.drawable.jdmarajoara,R.drawable.shopmorumbi};
 
 
     @Override
